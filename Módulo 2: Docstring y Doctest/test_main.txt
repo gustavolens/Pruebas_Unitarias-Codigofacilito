@@ -1,0 +1,23 @@
+>>> from main import User
+>>> from main import palindromo
+
+>>> username = 'Eduardo'
+>>> password = 'pass123'
+
+>>> user = User(username, password)
+
+>>> user.username == username
+True
+
+>>> user.password == password
+True
+
+>>> palindromo('Anita lava la tina') #esto se prueba en el shell con "python3 -m doctest nombre-del-archivo.py -v"
+True
+
+>>> palindromo('Codigo facilito')
+False
+
+>>> sentence = 'oso'
+>>> palindromo(sentence)
+True
